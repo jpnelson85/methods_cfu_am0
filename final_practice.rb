@@ -37,11 +37,11 @@ puts custom_greeting("Jeff")
 
 #3: Write a method named square that takes in one number, and returns the square of that number
 
-def square
-    square = 3
+def square(number)
+    #number ** 2
 end
 
-puts square
+puts square(3)
 
 
 
@@ -61,14 +61,11 @@ puts square
 
 #4: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and print outs the sentence of the entire string
 
-def greet_person
-   puts "Hello"
-   puts "Jeffrey"
-   puts "Paul"
-   puts "Nelson"
+def greet_person(f, m, l)
+   "#{f} #{m} #{l}"
 end
 
-puts greet_person
+puts "Nice to meet you, #{greet_person("Jeffrey", "Paul", "Nelson")}"
 
 
 # What is the return value of your method?
