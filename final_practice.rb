@@ -1,13 +1,13 @@
 # Defining Our Own Methods
 # 1: Write a method named greeting that prints out a general greeting to someone
-def greeting(name)
-    "Hello, #{name}"
+def greeting
+    "Hello"
 end
 
-puts greeting("Jeff")
+puts greeting
 
 # What is the return value of your method?
-# "Hello, #{name}"
+# "Hello"
 
 # How many arguments did you pass your method?
 # 1
@@ -17,19 +17,20 @@ puts greeting("Jeff")
 
 #2: Write a method named custom_greeting that prints out a greeting WITH a specific name.
 
-def custom_greeting
-    "Hello Jeff!"
+def custom_greeting(name)
+    "Hello #{name}"
 end
 
-puts custom_greeting
+puts custom_greeting("Jeff")
 
 # What is the return value of your method?
-# "Hello Jeff!"
+# "Hello #{name}"
 
 # How many arguments did you pass your method?
-# 0
+# 1
+
 # What data type was your argument(s)?
-# I didn't have an argument.
+# string
 
 
 
@@ -47,13 +48,13 @@ puts square
 
 
 # What is the return value of your method?
-# 3
+# square = 3
 
 # How many arguments did you pass your method?
 # 0
 
 # What data type was your argument(s)?
-# I didn't have an argument
+# nil
 
 
 
@@ -61,10 +62,10 @@ puts square
 #4: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and print outs the sentence of the entire string
 
 def greet_person
-    puts "Hello"
-    puts "Jeffrey"
-    puts "Paul"
-    puts "Nelson"
+   puts "Hello"
+   puts "Jeffrey"
+   puts "Paul"
+   puts "Nelson"
 end
 
 puts greet_person
@@ -77,5 +78,4 @@ puts greet_person
 # 0
 
 # What data type was your argument(s)?
-# I didn't have an argument.
-
+nil
